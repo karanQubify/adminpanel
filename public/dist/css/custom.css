@@ -1,0 +1,21 @@
+.error {
+    color: red;
+    font-weight: 500!important;
+}
+
+.ck.ck-content.ck-editor__editable {
+    height: 200px!important;
+
+}
+
+.text {
+    color: #f8fcff;
+}
+
+.rowdashboard {
+    height: 150px;
+}
+
+.small-box-footer{
+    bottom: -8px;
+}

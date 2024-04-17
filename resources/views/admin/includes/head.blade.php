@@ -1,6 +1,7 @@
-<meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin Panel | Dashboard</title>
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -22,3 +23,14 @@
   <link rel="stylesheet" href="{{asset('plugins/daterangepicker/daterangepicker.css')}}">
   <!-- summernote -->
   <link rel="stylesheet" href="{{asset('plugins/summernote/summernote-bs4.min.css')}}">
+  <!-- sweeralert -->
+  <link rel="stylesheet" href="{{asset('dist/css/sweetalert2.css')}}">
+  <!-- toastr css  -->
+  <link rel="stylesheet" href="{{asset('dist/css/toastr.min.css')}}">
+  <!-- datatables  -->
+  <link rel="stylesheet" href="{{asset('dist/css/jquery.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{asset('dist/css/dataTables.bootstrap4.min.css')}}">
+  <!-- custom css -->
+  <link rel="stylesheet" href="{{asset('dist/css/custom.css')}}">
+
+

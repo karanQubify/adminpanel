@@ -7,7 +7,7 @@
   </footer>
 
   <!-- jQuery -->
-<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>/jquery.validate.min.js
 <!-- jQuery UI 1.11.4 -->
 <script src="{{asset('plugins/jquery-ui/jquery-ui.min.js')}}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -16,6 +16,17 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- validation -->
+<script src="{{asset('dist/js/jquery.validate.min.js')}}"></script>
+<!-- sweet alert -->
+<script src="{{asset('dist/js/sweetalert2.min.js')}}"></script>
+<!-- toaster  -->
+<script src="{{asset('dist/js/toastr.min.js')}}"></script>
+<!-- datatables  -->
+<script src="{{asset('dist/js/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('dist/js/dataTables.bootstrap4.min.js')}}"></script>
+<!-- ckeditor  -->
+<script src="https://cdn.ckeditor.com/ckeditor5/41.3.0/classic/ckeditor.js"></script>
 <!-- ChartJS -->
 <script src="{{asset('plugins/chart.js/Chart.min.js')}}"></script>
 <!-- Sparkline -->
@@ -40,3 +51,4 @@
 <script src="{{asset('dist/js/demo.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{asset('dist/js/pages/dashboard.js')}}"></script>
+<script src="{{asset('dist/js/custom.js')}}"></script>
